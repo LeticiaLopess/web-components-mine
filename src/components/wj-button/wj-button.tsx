@@ -17,7 +17,7 @@ export class WjButton {
     return (
       <button class={`font-[Raleway] outline-none antialiased hover:shadow-lg hover:shadow-[#c3c7c7]/70 transition-all ease-out duration-300 flex items-center py-2 pl-4 pr-4 text-button !h-[40px] inline-block 
       ${this.bg === 'primary'
-          ? 'bg-[#3676e0]/80 text-white font-semibold hover:bg-[#3676e0] hover:shadow-md active:bg-[#2a5caf]'
+          ? 'bg-primary/80 text-white font-semibold hover:bg-[#3676e0] hover:shadow-md active:bg-[#2a5caf]'
           : this.bg === 'secondary'
           ? 'bg-[#197e85] text-white font-semibold hover:bg-[#11575e] hover:shadow-md active:bg-[#11575e]'
           : this.bg === 'negative' 
